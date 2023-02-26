@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 30%;
+    margin-left: 20px;
+}
+
+.hero {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+    width: 700px;
+    height: 343px;
+    background-image: url("https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/asia/thailand/bangkok/bangkok_0000_thailand-bangkok-chao-phraya-river-shutterstock_219128044.jpg?w=1920&h=940");
+    background-size: 700px, 343px;
+    
+}
+
+h1 {
+    padding-top: 230px;
+    
+}
+
+h1, h2 {
+    color: white;
+    text-shadow: 10px 3px 7px lightskyblue;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+.title{
+    color: greenyellow;   
+    font-size: 25px;
+    text-shadow: 2px 3px 10px whitesmoke; 
+}
+
+.activities {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 500px;
+    background-color: palevioletred;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-card {
+    width: 400px;
+    height: 295;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(whitesmoke, gold);
+    margin-top: 40px;
+    border: 3px dotted yellow;
+    border-radius: 10%;
+}
+
+.container-guide {
+    display: flex;
+    
+}
+
+.guide {
+    width: 180PX;
+    
+}
+
+.img-guide-sectiontwo {
+    width: 150px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
